@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JavaMail Maven Webapp"
+  id="myeclipse.1395464112044"
+  context-root="/JavaMail"
+  j2ee-spec="6.0"
+  archive="JavaMail Maven Webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

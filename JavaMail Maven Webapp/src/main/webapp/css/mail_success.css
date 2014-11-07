@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.nav{
+	
+	width: 400px;
+	height: 50px;
+	font-size: 12px;
+}
+
+.mail_pic{
+
+	width: 60px;
+	height: 50px;
+	margin-left: 50px;
+	float:left;
+}
+
+.mail_suc{
+
+	width: 150px;
+	height: 50px;
+	font-size: 25px;
+	float:left;
+	line-height: 40px;
+	font-family: 微软雅黑;
+}
+.blank11{
+	
+	width: 1200px;
+	height: 10px;
+	
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3C7DBD;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+	color: #333;
+	text-decoration: none;
+}

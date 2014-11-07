@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	<constant name="struts.multipart.maxSize" value="20971520" />
+	<constant name="struts.devMode" value="true" />
+
+	<package name="p_user" namespace="/" extends="struts-default">
+
+		<action name="sendmail" class="mail_action" method="sendMail">
+			<result name="success">success.jsp</result>
+		</action>
+		
+		<action name="savemail" class="mail_action" method="saveTobox">
+			<result name="success">save_suc.jsp</result>
+		</action>
+		
+		<action name="mailaction" class="mail_action">
+			<result name="delete_sent_mail" type="redirectAction">list_sent_mail</result>
+			<result name="delete_draft_mail" type="redirectAction">list_draft_mail</result>
+			<result name="delete_recieve_mail" type="redirectAction">List_recieveMail</result>
+			<result name="find_mail">mail_detail.jsp</result>
+			<result name="find_recievemail">Recivemail_detail.jsp</result>
+		
+		</action>
+
+		<action name="list_sent_mail" class="mail_action" method="List_sent_Mail">
+		<result name="list_sent_mail">List_sent_mail.jsp</result>
+		</action>
+		
+		<action name="list_draft_mail" class="mail_action" method="List_draft_Mail">
+		<result name="list_draft_mail">List_draft_mail.jsp</result>
+		</action>
+
+		<action name="List_recieveMail" class="mail_action" method="List_recieveMail">
+		<result name="List_recieveMail">RecieveMailSuccess.jsp</result>
+		</action>
+
+		<action name="Login" class="user_action" method="checkLogin">
+			<result name="success">index.jsp</result>
+			<result name="input">login.jsp</result>
+		</action>
+
+	</package>
+</struts>
