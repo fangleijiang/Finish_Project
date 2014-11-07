@@ -1,0 +1,18 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+   
+<hibernate-mapping package="com.cxiny.po">
+   	<class name="Group" table="t_group">
+   		<id name="id" column="gid">
+   			<generator class="native"/>
+   		</id>
+   		<property name="name" not-null="true" length="50"/>
+   		<set name="users">  <!-- 本model中的属性 -->
+   			 <!-- user表中的group属性值参照group表中的gid -->
+   			<key column="gid" foreign-key="fk_user_gid_group_gid"/>
+   			<!-- 一对多，set中放置的是User -->
+   			<one-to-many class="User"/>
+   		</set>
+   	</class>
+</hibernate-mapping> 

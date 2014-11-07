@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.zhong{
+	float:left;
+	width:960px;
+	height:1000px;
+}
+.player_page{
+	float:left;
+	width:960px;
+	height: 450px;
+	background-color: black;
+}
+.player_frame{
+	margin-left:130px;
+	width:700px;
+	height: 450px;
+	background-color:white;
+}
+.player_frame img{
+	width:700px;
+	height: 450px;
+}
+.response{
+	margin-top:500px;
+	width:700px;
+	height: 300px;
+}
+.response form ui{
+	text-align:center;
+}
+.response form ui li{
+	float:left;
+	margin-left:20px;
+	list-style-type:none;
+	text-align:center;
+}
+.response form input{
+	margin-right: 15px;
+	font-family: arial;
+	vertical-align:middle;
+}
+.response form label{
+	vertical-align:middle;
+} 
+	
+.submit{
+	margin-left: 600px;
+}

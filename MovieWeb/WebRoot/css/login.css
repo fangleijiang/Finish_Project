@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.frame{
+	float:left;
+	width: 960px;
+	height: 500px; 
+	background-color:#D9DCD9; 
+}
+ .picture{
+ 	margin-top:80px;
+	margin-left:280px;
+	width: 400px;
+	height: 300px;
+	background-image: url("/MovieWeb/images/login/login.jpg");
+	
+}
+.picture form{
+	 
+	padding-top:90px;
+	margin-left: 70px; 
+	font-size: 18px;
+}
+.picture form input{
+	font-family:arial;
+	font-size: 18px;
+}
+#login{
+	margin-left: 70px;
+	font-family: arial;
+	font-size:14px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+#reset{
+	margin-left: 40px;
+	font-family: arial;
+	font-size:14px;
+	padding-left: 6px;
+	padding-right: 6px;
+}

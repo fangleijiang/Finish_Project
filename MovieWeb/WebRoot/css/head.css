@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+.top {
+	height: 32px;
+	background: url(/MovieWeb/images/m.jpg) repeat-x;
+	font-family: Verdana;
+	margin: 0px;
+	text-align: center;
+}
+
+.top table {
+	float: left;
+	width: 960px;
+	margin: 0px auto;
+}
+.top table tr td{
+	float: left;
+	padding-left: 35px;
+	width:90px;
+	height: 28px; 
+}
+
+ .top table tr td a:link {
+ 	padding: 3px 0px 3px 0px;
+	display: block;
+	margin: 0px;
+	text-decoration: none;
+	blr:expression(this.onFocus=this.blur());/*  火狐中去掉周围的虚线框 */
+	outline: 0; /*去掉周围的虚线框*/
+	color: white; 
+	
+}
+
+.top table tr td  a:visited {
+	padding:3px 0px 3px 0px;
+	color: #00C636;
+	text-decoration: none;
+	outline: 0;
+}
+
+.top table tr td a:hover {
+	padding:3px 0px 3px 0px;
+	color: black;
+	text-decoration: none;
+	background: url(../images/button1_bg.jpg) repeat-x;
+	outline: 0;
+}
+
+.top table tr td a:active {
+	padding:3px 0px 3px 0px;
+	color: yellow;
+} 
+
+.banner {
+	width: 960px;
+	height: 130px;
+	float: left;
+	margin-top: 0px;
+}
+
+.img {
+	margin-top:0px;
+	width: 960px;
+	height: 130px;
+}
+
+.navi {
+	margin-top: 0px;
+ 	width: 960px; 
+	 float: left; 
+	 height: 40px; 
+	background-color: #DFEAF0;
+}
+
+.navi table {
+	margin-top: 0px;
+ 	float: left; 
+	 width: 960px;
+}
+
+.navi table tr td {
+	float: left;
+	padding-left: 30px;
+	/* margin-top: 3px; */
+}
+
+.navi  table tr td input {
+	width: 170px;
+	height: 25px;
+	margin-top: 3px;
+	margin-left: 70px;
+/* 	background-color: white; */
+ 	
+	text-align: left;
+	'
+}
+#search{
+	background-image:url('/MovieWeb/images/search.jpg');
+	outline: 0;
+	margin-left:30px;
+	margin-top:3px;
+	width:70px;
+	height:30px;
+	border:0px;
+	
+}
+
+.navi table tr td a:link {
+	display: block;
+	padding: 3px 4px 6px 6px;
+	background: url(../images/button.jpg) repeat-x;
+	margin: 0px;
+	text-decoration: none;
+	/* blr:expression(this.onFocus=this.blur()); */ /*火狐中去掉周围的虚线框*/
+	outline: 0; /*去掉周围的虚线框*/
+	color: #004A8D;
+}
+
+.navi table tr td a:visited {
+	padding: 3px 4px 6px 6px;
+	color: #00C636;
+	text-decoration: none;
+	outline: 0;
+}
+
+.navi table tr td a:hover {
+	padding: 3px 4px 6px 6px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: url(../images/button1_bg.jpg) repeat-x;
+	outline: 0;
+}
+
+.navi table tr td a:active {
+	padding: 3px 4px 6px 6px;
+	color: yellow;
+}

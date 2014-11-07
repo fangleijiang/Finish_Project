@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+.group_zhong{
+	float:left;
+}
+.paomadeng {
+	margin-top: 2px;
+	width: 960xp;
+	height: 26px;
+	float: left;
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+.player_field{
+	float:left;
+	width:960px;
+	height: 450px;
+	background-color: black;
+}
+
+.player{
+	margin-left:130px;
+	width:700px;
+	height: 450px;
+	background-color:white;
+}
+.player img{
+	width:700px;
+	height: 450px;
+}
+
+.left_index {
+	margin-left: 1px;
+	border: solid;
+	border-width:1px;
+	border-color: #D9DCD9;
+	width: 751px;
+	height: 100%;
+	/* background-color: pink; */
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.left_fenleititle {
+	width: 751px;
+	height: 26px;
+	float: left;
+	margin-bottom: 10px;
+	background-color: #EAEAE2;
+}
+
+.left_list {
+	margin-left: 24px;
+	margin-right: 10px;
+	float: left;
+	width: 134px;
+	height: 250px;
+	padding-top: 30px;
+}
+
+.left_list p {
+	margin-top: 5px;
+}
+
+.left_list a:link {
+	outline: 0;
+	color: black;
+	text-decoration: none;
+	
+}
+
+.left_list a:visited {
+	outline: 0;
+	color: red;
+	text-decoration: none;
+	
+}
+
+.left_list p a:hover {
+	outline: 0;
+	color: blue;
+	text-decoration: underline;
+	
+}
+
+.gengduo {
+	margin-top: 200px;
+	width: 45px;
+	height: 20px;
+	float: left;
+	margin-bottom: 30px;
+}
+.right_index{
+	margin-left: 1px;
+ 	border: solid; 
+ 	border-width:1px;
+	border-color: #D9DCD9;
+	width: 200px;
+	height: 100%;
+	/* background-color: pink; */
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+}
+.right_index table tr td{
+	width:66px;	
+}
+.right_table2{
+	margin-top: 116px;
+}

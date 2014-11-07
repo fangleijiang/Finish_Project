@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.first{
+	width:960px;
+	text-align:center;
+	height:23px;
+	background-color: pink;  
+	margin-top: 0.1px;
+	float:left; 
+}
+.first ul{
+	margin-top:4px;
+	margin-left:280px;
+	text-align:center;
+}
+.first ul li{
+	float:left;
+	margin-left:20px;
+	list-style-type:none;
+	text-align:center;
+}
+.second{
+	width:960px;
+	text-align:center;
+	float:left;
+	/* background-color: green;  */
+}
+.third{
+	width:960px;
+	text-align: center;
+/* 	background-color: yellow; */
+	float: left;
+	margin-top: 7px;
+}

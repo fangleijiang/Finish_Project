@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
+	
+	<bean name="userDao" class="com.cxiny.dao.UserDao">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>	
+	
+	<bean name="groupDao" class="com.cxiny.dao.GroupDao">
+	 	<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+	<bean name="movieDao" class="com.cxiny.dao.MovieDao">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>	
+	
+	<bean name="userMgr" class="com.cxiny.service.UserManager"> 
+	   <property name="userDao" ref="userDao"></property>
+	</bean>
+
+	<bean name="groupMgr" class="com.cxiny.service.GroupManager"> 
+	   <property name="groupDao" ref="groupDao"></property>
+	</bean>
+	
+	<bean name="movieMgr" class="com.cxiny.service.MovieManager"> 
+	   <property name="movieDao" ref="movieDao"></property>
+	</bean>
+	
+	<bean name="interpretor" class="com.cxiny.util.Interpretor"/>
+	
+	<bean name="interPretorModel" class="com.cxiny.util.InterPretorModel"/>
+	
+	
+</beans>

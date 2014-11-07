@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.more_list{
+	margin-left: 1px;
+	border: solid;
+	border-width:1px;
+	border-color: #D9DCD9;
+	width:957px;
+	height: 100%;
+	/* text-align: center; */
+	margin-top: 5px;
+	float:left;
+}
+.more_list_tu{
+	margin-left: 11px;
+	margin-right: 11px;
+	float: left;
+	width: 134px;
+	height: 250px;
+	padding-top: 30px;
+	text-align:center;
+}
+.more_list_tu img{
+	width: 134px;	
+	height: 183px;
+}
+.devide{
+	float:left;
+	width: 960px;
+	height: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+}

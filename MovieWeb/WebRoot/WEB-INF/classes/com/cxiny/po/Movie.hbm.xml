@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+   
+<hibernate-mapping package="com.cxiny.po">
+   	<class name="Movie" table="t_movie">
+   		<id name="id" column="mid">
+   			<generator class="native"/>
+   		</id>
+   		<property name="name" length="100" not-null="true"/>
+   		<property name="intro" length="600"/>
+   		<property name="role" length="100"/>
+   		<property name="photo"/>
+   		<property name="typeBanner" column="typebanner"/>
+   		<property name="typeType" column="typetype"/>
+   		<property name="typeField" column="typefield"/>
+   		<property name="typeSuper" column="typebsuper"/>
+   		<property name="uploadTime" column="uploadtime"/>
+   		<property name="clickNum" column="clicknum"/>
+   		
+   	</class>
+</hibernate-mapping> 
